@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c5f1525ce28d91d77c7788cf53987de",
+    "content-hash": "777b8fea286131c572e24a50887a8793",
     "packages": [
         {
             "name": "2checkout/2checkout-php",
@@ -905,15 +905,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/omnipay-authorizenet.git",
-                "reference": "c109d81bc2cdbee8705fe9e4f99ba55841485286"
+                "reference": "8ccce3190c00d0a129c62dc1d1451d0125bab640"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/omnipay-authorizenet/zipball/c109d81bc2cdbee8705fe9e4f99ba55841485286",
-                "reference": "c109d81bc2cdbee8705fe9e4f99ba55841485286",
+                "url": "https://api.github.com/repos/thephpleague/omnipay-authorizenet/zipball/8ccce3190c00d0a129c62dc1d1451d0125bab640",
+                "reference": "8ccce3190c00d0a129c62dc1d1451d0125bab640",
                 "shasum": ""
             },
             "require": {
+                "ext-json": "*",
+                "ext-libxml": "*",
+                "ext-simplexml": "*",
                 "omnipay/common": "^3"
             },
             "require-dev": {
@@ -958,7 +961,7 @@
                 "pay",
                 "payment"
             ],
-            "time": "2018-05-21T22:15:58+00:00"
+            "time": "2019-04-27T22:33:23+00:00"
         },
         {
             "name": "omnipay/braintree",
@@ -966,12 +969,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/omnipay-braintree.git",
-                "reference": "b1918571b013fdd9e4caedd784bc40642b3b7dcf"
+                "reference": "227ffdc04ea7c4cd0358f028bf7dfae2228eeb94"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/omnipay-braintree/zipball/b1918571b013fdd9e4caedd784bc40642b3b7dcf",
-                "reference": "b1918571b013fdd9e4caedd784bc40642b3b7dcf",
+                "url": "https://api.github.com/repos/thephpleague/omnipay-braintree/zipball/227ffdc04ea7c4cd0358f028bf7dfae2228eeb94",
+                "reference": "227ffdc04ea7c4cd0358f028bf7dfae2228eeb94",
                 "shasum": ""
             },
             "require": {
@@ -1021,7 +1024,7 @@
                 "payment",
                 "purchase"
             ],
-            "time": "2018-05-25T15:16:01+00:00"
+            "time": "2018-11-09T08:39:19+00:00"
         },
         {
             "name": "omnipay/common",
@@ -2048,16 +2051,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v3.4.0",
+            "version": "v3.4.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "d9625c8abb907e0ca2d7506afd7a719a572c766f"
+                "reference": "9e4b3ac8fa3348b4811674d23de32d201de225ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/d9625c8abb907e0ca2d7506afd7a719a572c766f",
-                "reference": "d9625c8abb907e0ca2d7506afd7a719a572c766f",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/9e4b3ac8fa3348b4811674d23de32d201de225ce",
+                "reference": "9e4b3ac8fa3348b4811674d23de32d201de225ce",
                 "shasum": ""
             },
             "require": {
@@ -2098,20 +2101,20 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2017-11-30T14:56:21+00:00"
+            "time": "2019-11-11T12:53:10+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.8.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "3296adf6a6454a050679cde90f95350ad604b171"
+                "reference": "7b4aab9743c30be783b73de055d24a39cf4b954f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/3296adf6a6454a050679cde90f95350ad604b171",
-                "reference": "3296adf6a6454a050679cde90f95350ad604b171",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7b4aab9743c30be783b73de055d24a39cf4b954f",
+                "reference": "7b4aab9743c30be783b73de055d24a39cf4b954f",
                 "shasum": ""
             },
             "require": {
@@ -2123,7 +2126,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.8-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -2157,20 +2160,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-04-26T10:06:28+00:00"
+            "time": "2019-11-27T14:18:11+00:00"
         },
         {
             "name": "symfony/polyfill-php70",
-            "version": "v1.9.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php70.git",
-                "reference": "1e24b0c4a56d55aaf368763a06c6d1c7d3194934"
+                "reference": "af23c7bb26a73b850840823662dda371484926c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/1e24b0c4a56d55aaf368763a06c6d1c7d3194934",
-                "reference": "1e24b0c4a56d55aaf368763a06c6d1c7d3194934",
+                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/af23c7bb26a73b850840823662dda371484926c4",
+                "reference": "af23c7bb26a73b850840823662dda371484926c4",
                 "shasum": ""
             },
             "require": {
@@ -2180,7 +2183,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -2216,7 +2219,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-08-06T14:22:27+00:00"
+            "time": "2019-11-27T13:56:44+00:00"
         },
         {
             "name": "symfony/process",
@@ -2474,12 +2477,12 @@
             "version": "0.4.9",
             "source": {
                 "type": "git",
-                "url": "https://github.com/zbateson/MailMimeParser.git",
+                "url": "https://github.com/zbateson/mail-mime-parser.git",
                 "reference": "1e85e46204616e59ff7e34e4a141acdf9cf0c70a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zbateson/MailMimeParser/zipball/1e85e46204616e59ff7e34e4a141acdf9cf0c70a",
+                "url": "https://api.github.com/repos/zbateson/mail-mime-parser/zipball/1e85e46204616e59ff7e34e4a141acdf9cf0c70a",
                 "reference": "1e85e46204616e59ff7e34e4a141acdf9cf0c70a",
                 "shasum": ""
             },
